@@ -1,5 +1,5 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #F0f0f0;
 }
 
 p {
@@ -25,18 +25,30 @@ h1 {
     background-color: #e6563b;
     font-weight: bold;
 }
+#btn1:hover {
+    border: 7px solid lightcoral;
+}
 #btn2 {
     background-color: #EB9D3A;
     font-weight: bold;
+}
+#btn2:hover {
+    border: 7px solid lightgoldenrodyellow;
 }
 #btn3 {
     background-color: #7CB06C;
     font-weight: bold;
 }
+#btn3:hover {
+    border: 7px solid lightgreen;
+}
 #btn4 {
     background-color: #00ABA9;
     font-weight: bold;
     color: white;
+}
+#btn4:hover {
+    border: 7px solid lightblue;
 }
 
 
@@ -46,4 +58,11 @@ h1 {
     line-height: 55px;
     border-radius: 50%;
     border: 5px solid white;
+}
+#apple-ipad {
+    border: 15px solid #e6e6e6;
+}
+#sltd-wrk {
+    font-size: 2em;
+    text-align: center;
 }
