@@ -17,40 +17,33 @@ h1 {
 .btn h5 {
     height: 28px;
 }
-
-.btn-circle.btn-sm {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
-    font-size: 8px;
-    text-align: center;
-}
-.btn-circle.btn-md {
-    width: 50px;
-    height: 50px;
-    padding: 7px 10px;
-    border-radius: 25px;
-    font-size: 10px;
-    text-align: center;
-}
-.btn-circle.btn-xl {
-    width: 105px;
-    height: 105px;
-    padding: 16px 16px 9px 12px;
-    border-radius: 50%;
-    font-size: 12px;
-    text-align: center;
-}
-
 #buttons {
     display: flex;
 }
 
 #btn1 {
     background-color: #e6563b;
-    color: white;
-    border: 4px white solid;
     font-weight: bold;
+}
+#btn2 {
+    background-color: #EB9D3A;
+    font-weight: bold;
+}
+#btn3 {
+    background-color: #7CB06C;
+    font-weight: bold;
+}
+#btn4 {
+    background-color: #00ABA9;
+    font-weight: bold;
+    color: white;
+}
 
+
+.btn-circle-lg {
+    width: 105px;
+    height: 105px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 5px solid white;
 }
