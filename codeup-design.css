@@ -59,10 +59,22 @@ h1 {
     border-radius: 50%;
     border: 5px solid white;
 }
+
+.btn-circle-sm {
+    width: 18px;
+    height: 18px;
+    /*line-height: 55px;*/
+    border-radius: 50%;
+}
+
 #apple-ipad {
     border: 15px solid #e6e6e6;
 }
 #sltd-wrk {
     font-size: 2em;
     text-align: center;
+}
+
+.bgcard {
+    background-color: #f0f0f0;
 }
