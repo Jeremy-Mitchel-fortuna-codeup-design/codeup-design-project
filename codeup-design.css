@@ -1,7 +1,56 @@
 body {
+    background-color: #e6e6e6;
+}
+
+p {
     font-family: 'Abel', sans-serif;
 }
 
 .header {
     font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    height: 64px;
+}
+
+.btn h5 {
+    height: 28px;
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 105px;
+    height: 105px;
+    padding: 16px 16px 9px 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+}
+
+#btn1 {
+    background-color: #e6563b;
+    color: white;
+    border: 4px white solid;
+    font-weight: bold;
+
 }
