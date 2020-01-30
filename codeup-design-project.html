@@ -12,54 +12,83 @@
 </head>
 <body>
 <!-- NavBar --->
+<nav class="navbar navbar-b navbar-light bg-white d-sm-none">
+    <a class="navbar-brand mx-auto d-block mt-n4" href="#">
+        <img src="images/logo.jpg" width="105" height="105" class="" alt="logo" id="logo">
+    </a>
+</nav>
+
 <nav class="navbar navbar-b navbar-light bg-white navbar-expand d-none d-sm-block d-md-none ">
 
-        <ul class="navbar-nav mx-auto" id="small-navbar" >
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">WORK</a>
-            </li>
-            <li>
-                <a class="navbar-brand mx-auto d-block mt-n5" href="#">
-                    <img src="images/logo.jpg" width="105" height="105" class="" alt="logo" id="logo">
+    <ul class="navbar-nav mx-auto" id="small-navbar" >
+        <li class="nav-item px-3">
+            <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item px-3">
+            <a class="nav-link" href="#">WORK</a>
+        </li>
+        <li>
+            <a class="navbar-brand mx-auto d-block mt-n5" href="#">
+                <img src="images/logo.jpg" width="105" height="105" class="" alt="logo" id="logo">
 
-                </a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
+            </a>
+        </li>
+        <li class="nav-item px-3">
+            <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item px-3">
+            <a class="nav-link" href="#">CONTACT</a>
+        </li>
 
 
-        </ul>
+    </ul>
 
 </nav>
 
+<nav class="navbar navbar-b navbar-light navbar-expand bg-white d-none d-md-flex align-center" id="mdbar">
+    <a class="navbar-brand flex-start" href="#">
+        <img src="images/logo.jpg" width="105" height="105" class="d-flex mt-4" alt="logo" id="mdlogo">
+    </a>
+    <h2 id="mdtitle">codeup design</h2>
+    <div class="mt-n5">
+        <ul class="navbar-nav flex-right" id="midnavbar">
+            <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
 
 
 <div class="container">
 
-    <h1 class="mt-n4 text-center"><p>codeup design</p></h1>
+    <h1 class="mt-n4 text-center d-md-none"><p>codeup design</p></h1>
 
     <nav class="navbar navbar-expand navbar-light bg-transparent mt-n4 mb-4 d-sm-none">
         <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
     </nav>
 
 
@@ -78,150 +107,152 @@
         </div>
     </div>
 </div>
-    <!-- Title end-->
-    <!--Start of Buttons-->
-    <div class="container">
-        <div class="row" id="button-container">
-            <div class="offset-sm-2"></div>
-            <div class="col-6 col-sm-2">
-                <div class="text-center">
-                    <!-- lg circle buttons-->
-                    <button class="btn btn-success btn-circle btn-circle-lg m-1 btn1" id="btn1">DESIGN</button>
-                </div>
-            </div>
-            <div class="col-6 col-sm-2">
-                <div class="text-center">
-                    <button class="btn btn-primary btn-circle btn-circle-lg m-1 btn2" id="btn2">DEVELOP</button>
-                </div>
-            </div>
-            <div class="col-6 col-sm-2">
-                <div class="text-center">
-                    <button class="btn btn-info btn-circle btn-circle-lg m-1 btn3" id="btn3">SUPPORT</button>
-                </div>
-            </div> <div class="col-6 col-sm-2">
+<!-- Title end-->
+<!--Start of Buttons-->
+<div class="container">
+    <div class="row" id="button-container">
+        <div class="offset-sm-2"></div>
+        <div class="col-6 col-sm-2">
             <div class="text-center">
-                <button class="btn btn-warning btn-circle btn-circle-lg m-1 btn4" id="btn4">HOST</button>
+                <!-- lg circle buttons-->
+                <button class="btn btn-success btn-circle btn-circle-lg m-1 btn1" id="btn1">DESIGN</button>
             </div>
         </div>
+        <div class="col-6 col-sm-2">
+            <div class="text-center">
+                <button class="btn btn-primary btn-circle btn-circle-lg m-1 btn2" id="btn2">DEVELOP</button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-2">
+            <div class="text-center">
+                <button class="btn btn-info btn-circle btn-circle-lg m-1 btn3" id="btn3">SUPPORT</button>
+            </div>
+        </div> <div class="col-6 col-sm-2">
+        <div class="text-center">
+            <button class="btn btn-warning btn-circle btn-circle-lg m-1 btn4" id="btn4">HOST</button>
         </div>
     </div>
-    <!--End of Buttons-->
-    <hr/>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-8">
-                <p id="sltd-wrk" class="text-center d-block d-md-none">SELECTED WORK</p>
-                <p id="sltd-wrk" class="d-none d-md-block text-left">SELECTED WORK</p>
-                <div class="row">
+    </div>
+</div>
+<!--End of Buttons-->
+
+<hr class="d-none d-sm-block col-sm-6 offset-sm-3"/ >
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <p id="sltd-wrk" class="text-center d-block d-md-none">SELECTED WORK</p>
+            <p id="sltd-wrk" class="d-none d-md-block text-left">SELECTED WORK</p>
+            <div class="row">
                 <div class="col-12 col-sm-6">
-            <!--                https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width-->
-            <div class="card text-center" >
-                <img src="images/apple-ipad.jpg" class="card-img-top text-center pic" id="apple-ipad">
-                <div class="card-body">
-                    <p class="card-text float-left">FEATURED PROJECT</p>
-                    <span class="float-right">
+                    <!--                https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width-->
+                    <div class="card text-center" >
+                        <img src="images/apple-ipad.jpg" class="card-img-top text-center pic" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
                             <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
                             <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
                             <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
                             <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
                         </span>
-                </div>
-            </div>
-            <div class="card text-center d-none d-sm-block">
-                <img src="images/man.jpg" class="card-img-top text-center pic" id="apple-ipad">
-                <div class="card-body">
-                    <p class="card-text float-left">FEATURED PROJECT</p>
-                    <span class="float-right">
+                        </div>
+                    </div>
+                    <div class="card text-center d-none d-sm-block">
+                        <img src="images/man.jpg" class="card-img-top text-center pic" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
                             <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
                             <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
                             <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
                             <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
                         </span>
-                </div>
-            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-            <div class="card text-center d-none  d-sm-block " >
-                <img src="images/macbook.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
-                <div class="card-body">
-                    <p class="card-text float-left">FEATURED PROJECT</p>
-                    <span class="float-right">
+                    <div class="card text-center d-none  d-sm-block " >
+                        <img src="images/macbook.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
                             <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
                             <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
                             <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
                             <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
                         </span>
-                </div>
-            </div>
-            <div class="card text-center d-none d-sm-block ">
-                <img src="images/security.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
-                <div class="card-body">
-                    <p class="card-text float-left">FEATURED PROJECT</p>
-                    <span class="float-right">
+                        </div>
+                    </div>
+                    <div class="card text-center d-none d-sm-block ">
+                        <img src="images/security.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
                             <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
                             <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
                             <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
                             <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
                         </span>
-                </div>
-            </div>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <p id="sltd-wrk" class="text-left d-none d-md-block side-card">THE LAST</p>
-                <div class="row">
-            <div class="d-none d-md-block col-md-12">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="images/mobile-phone.jpg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body card-body-l">
-                                <p class="card-side-bar">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
-                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="images/head.jpg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body card-body-l">
-                                <p class="card-side-bar">NIBBLER AWESOME WEBSITE TESTING</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="images/ipad.jpg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body card-body-l">
-                                <p class="card-side-bar">HOW TO GET GOOGLE TO LIKE YOU</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header bg-transparent mb-0 pb-0">
-                        <p class="flex-right"><img src="images/twitter.png" class="card-img flex-left" id="twitter">LAST TWEET</p>
-                    </div>
-                    <div class="card-body mt-0 pt-0">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto exercitationem iste quo. Adipisci asperiores, assumenda consequatur dolore doloremque ea eius ex explicabo necessitatibus, porro praesentium quam repellat sequi, temporibus voluptas?</p>
-                    </div>
-                </div>
-            </div>
-                </div>
                 </div>
             </div>
         </div>
+
+        <div class="col-md-4">
+            <p id="sltd-wrk" class="text-left d-none d-md-block side-card">THE LAST</p>
+            <div class="row">
+                <div class="d-none d-md-block col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/mobile-phone.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-l">
+                                    <p class="card-side-bar">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/head.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-l">
+                                    <p class="card-side-bar">NIBBLER AWESOME WEBSITE TESTING</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/ipad.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-l">
+                                    <p class="card-side-bar">HOW TO GET GOOGLE TO LIKE YOU</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-transparent mb-0 pb-0">
+                            <p class="flex-right"><img src="images/twitter.png" class="card-img flex-left" id="twitter">LAST TWEET</p>
+                        </div>
+                        <div class="card-body mt-0 pt-0">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto exercitationem iste quo. Adipisci asperiores, assumenda consequatur dolore doloremque ea eius ex explicabo necessitatibus, porro praesentium quam repellat sequi, temporibus voluptas?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
