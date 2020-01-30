@@ -21,28 +21,28 @@ h1 {
     display: flex;
 }
 
-#btn1 {
+.btn1 {
     background-color: #e6563b;
     font-weight: bold;
 }
 #btn1:hover {
     border: 7px solid lightcoral;
 }
-#btn2 {
+.btn2 {
     background-color: #EB9D3A;
     font-weight: bold;
 }
 #btn2:hover {
     border: 7px solid lightgoldenrodyellow;
 }
-#btn3 {
+.btn3 {
     background-color: #7CB06C;
     font-weight: bold;
 }
 #btn3:hover {
     border: 7px solid lightgreen;
 }
-#btn4 {
+.btn4 {
     background-color: #00ABA9;
     font-weight: bold;
     color: white;
@@ -50,6 +50,12 @@ h1 {
 #btn4:hover {
     border: 7px solid lightblue;
 }
+
+#btn1-sm:hover {
+    background-color: lightcoral;
+}
+
+
 
 
 .btn-circle-lg {
@@ -60,16 +66,29 @@ h1 {
     border: 5px solid white;
 }
 
-.btn-circle-sm {
+.btn-sm {
     width: 18px;
     height: 18px;
-    /*line-height: 55px;*/
-    border-radius: 50%;
+    padding-right: 10px;
+    margin-right: 2px;
+    border-radius: 15px;
+    font-size: 8px;
+    border: transparent;
+    /*text-align: left;*/
+    color: black;
+}
+
+.card {
+    border: transparent;
+    background-color: transparent;
 }
 
 #apple-ipad {
     border: 15px solid #e6e6e6;
 }
+
+
+
 #sltd-wrk {
     font-size: 2em;
     text-align: center;
