@@ -93,6 +93,12 @@ h1 {
     object-fit: cover;
 }
 
+.smallpic{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+
 #sltd-wrk {
     font-size: 2em;
     text-align: center;
