@@ -27,6 +27,7 @@ h1 {
 .btn1 {
     background-color: #e6563b;
     font-weight: bold;
+    color: white;
 }
 .btn1:hover {
     border: 7px solid #e6563b;
@@ -34,6 +35,7 @@ h1 {
 .btn2 {
     background-color: #EB9D3A;
     font-weight: bold;
+    color: white;
 }
 .btn2:hover {
     border: 7px solid #EB9D3A;
@@ -41,6 +43,7 @@ h1 {
 .btn3 {
     background-color: #7CB06C;
     font-weight: bold;
+    color: white;
 }
 .btn3:hover {
     border: 7px solid #7CB06C;
@@ -55,8 +58,13 @@ h1 {
 }
 
 
+#leftbigbutton {
+    margin-left: 2%;
+}
 
-
+#leftbigbuttonxl {
+    margin-left: 5%;
+}
 
 .btn-circle-lg {
     width: 105px;
@@ -64,6 +72,19 @@ h1 {
     line-height: 55px;
     border-radius: 50%;
     border: 5px solid white;
+    margin: auto;
+}
+
+.btn-sm:hover {
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+    margin-right: 2px;
+    border-radius: 15px;
+    font-size: 8px;
+    border: transparent;
+    /*text-align: left;*/
+    color: black;
 }
 
 .btn-sm {
