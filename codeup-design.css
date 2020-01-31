@@ -138,9 +138,7 @@ h1 {
     font-family: 'Abel', sans-serif;
 }
 
-#small-navbar {
-    margin-top: 8.5em;
-}
+
 
 
 #midnavbar {
@@ -156,4 +154,10 @@ h1 {
     margin-right: auto;
     margin-top: 1em;
     font-family: 'Abel', sans-serif;
+}
+.navbar-nav#small-navbar {
+    margin-top: 1.2em;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
