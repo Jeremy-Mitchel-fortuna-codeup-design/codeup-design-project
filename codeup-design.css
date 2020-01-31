@@ -13,8 +13,25 @@ p {
     font-family: 'Anton', sans-serif;
     font-size: 1.45em;
 }
+
 h1 {
-    height: 64px;
+    font-size: 64px;
+}
+
+h2#main-title {
+    font-size: 48px;
+}
+
+h2#location-header {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
 }
 
 .btn h5 {
