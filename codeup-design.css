@@ -176,8 +176,25 @@ h5 {
     font-family: 'Abel', sans-serif;
 }
 
+#xlbar {
+    padding-left: 20%;
+}
 
+#finalproject1 {
+    margin-top: 20%;
+}
 
+#finalproject2 {
+    margin-top: 31%;
+}
+
+#finalproject3 {
+    margin-top: 14%;
+}
+
+#finalproject4 {
+    margin-top: 11.5%;
+}
 
 #midnavbar {
     justify-content: flex-end;
@@ -199,3 +216,8 @@ h5 {
     left: 50%;
     transform: translatex(-50%);
 }
+
+/*.smbutton {*/
+/*    position: fixed;*/
+/*}*/
+
