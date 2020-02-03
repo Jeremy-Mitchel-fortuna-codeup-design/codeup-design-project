@@ -14,7 +14,7 @@
 <!-- ExSmallBar --->
 <nav class="navbar navbar-b navbar-light bg-white d-sm-none">
     <a class="navbar-brand mx-auto d-block mt-n4" href="#">
-        <img src="images/logo.jpg" width="105" height="105" class="" alt="logo" id="logo">
+        <img src="images/logo.jpg" width="105" height="105" class="" alt="logo">
     </a>
 </nav>
 
@@ -29,7 +29,7 @@
         </li>
         <li>
             <a class="navbar-brand mx-auto d-block mt-n5" href="#">
-                <img src="images/logo.jpg" width="105" height="105" class="" alt="logo" id="logo">
+                <img src="images/logo.jpg" width="105" height="105" class="" alt="logo">
             </a>
         </li>
         <li class="nav-item px-3">
@@ -87,6 +87,7 @@
         </ul>
     </nav>
 
+
     <!--Title-->
     <div class="row text-center mb-3" id="title">
         <div class="col-12">
@@ -107,7 +108,7 @@
 <!--Start of Buttons-->
 <!--Red Button-->
 <div class="container d-sm-none my-3">
-    <div class="row" id="button-container">
+    <div class="row">
         <div class="offset-sm-2"></div>
         <div class="col-6 col-sm-2">
             <div class="text-center">
@@ -134,9 +135,9 @@
 
 <!--Yellow Button-->
 <div class="container d-none d-sm-block d-md-none my-3">
-    <div class="row" id="button-container">
+    <div class="row">
         <div class="offset-md-1"></div>
-        <div class="col-sm-2 mr-3" id="leftbigbutton">
+        <div class="col-sm-2 mr-3 leftbigbutton">
             <div class="text-center">
                 <!-- lg circle buttons-->
                 <button class="btn btn-circle btn-circle-lg m-1 btn1" id="btn1">DESIGN</button>
@@ -161,9 +162,9 @@
 
 <!--Green Button-->
 <div class="container d-none d-md-block d-lg-none my-3">
-    <div class="row" id="button-container">
+    <div class="row">
         <div class="offset-md-1"></div>
-        <div class="col-sm-2 ml-1 mr-3" id="leftbigbutton">
+        <div class="col-sm-2 ml-1 mr-3 leftbigbutton">
             <div class="text-center">
                 <!-- lg circle buttons-->
                 <button class="btn btn-circle btn-circle-lg m-1 btn1" id="btn1">DESIGN</button>
@@ -223,8 +224,8 @@
 <div class="container my-5">
     <div class="row">
         <div class="col-12 col-md-8">
-            <p id="sltd-wrk" class="text-center d-block d-md-none">SELECTED WORK</p>
-            <p id="sltd-wrk" class="d-none d-md-block text-left">SELECTED WORK</p>
+            <p id="sltd-wrk" class="text-center d-block d-md-none mt-5">SELECTED WORK</p>
+            <p id="sltd-wrk" class="d-none d-md-block text-left my-3">SELECTED WORK</p>
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <!--                https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width-->
@@ -232,11 +233,11 @@
 
 
                     <div class="card text-center" >
-                        <img src="images/apple-ipad.jpg" class="card-img-top text-center pic" id="apple-ipad">
+                        <img src="images/apple-ipad.jpg" class="card-img-top text-center pic rounded" id="apple-ipad">
                         <div class="card-body">
                             <p class="card-text float-left">FEATURED PROJECT</p>
-                            <span class="float-right text-left">
-                            <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
+                            <span class="float-right smbutton">
+                            <button type="button" class="btn btn-circle btn-sm btn1 text-center" id="btn1-sm">D</button>
                             <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm">D</button>
                             <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm">S</button>
                             <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm">H</button>
@@ -244,21 +245,7 @@
                         </div>
                     </div>
                     <div class="card text-center d-none d-sm-block">
-                        <img src="images/man.jpg" class="card-img-top text-center pic" id="apple-ipad">
-                        <div class="card-body">
-                            <p class="card-text float-left">FEATURED PROJECT</p>
-                            <span class="float-right">
-                            <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
-                            <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
-                            <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
-                            <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
-                        </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card text-center d-none  d-sm-block " >
-                        <img src="images/macbook.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
+                        <img src="images/man.jpg" class="card-img-top text-center pic rounded" id="apple-ipad">
                         <div class="card-body">
                             <p class="card-text float-left">FEATURED PROJECT</p>
                             <span class="float-right">
@@ -269,33 +256,87 @@
                         </span>
                         </div>
                     </div>
-                    <div class="card text-center d-none d-sm-block ">
-                        <img src="images/security.jpg" class="card-img-top text-center image-fluid" id="apple-ipad">
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-center d-none  d-sm-block " >
+                        <img src="images/macbook.jpg" class="card-img-top text-center image-fluid rounded" id="apple-ipad">
                         <div class="card-body">
                             <p class="card-text float-left">FEATURED PROJECT</p>
                             <span class="float-right">
-                            <button type="button" class="btn btn-primary btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
-                            <button type="button" class="btn btn-secondary btn-circle btn-sm btn2" id="btn2-sm">D</button>
-                            <button type="button" class="btn btn-success btn-circle btn-sm btn3" id="btn3-sm">S</button>
-                            <button type="button" class="btn btn-danger btn-circle btn-sm btn4" id="btn4-sm">H</button>
+                            <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm"><div class="smbutton">D</div></button>
+                            <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm"><div class="smbutton">D</div></button>
+                            <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm"><div class="smbutton">S</div></button>
+                            <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm"><div class="smbutton">H</div></button>
+                        </span>
+                        </div>
+                    </div>
+
+<!--                    Last cards with altered margins-->
+
+                    <div class="card text-center d-none d-sm-block d-md-none" id="finalproject1">
+                        <img src="images/security.jpg" class="card-img-top text-center image-fluid rounded mt-3" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
+                            <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm">S</button>
+                            <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm">H</button>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="card text-center d-none d-md-block d-lg-none" id="finalproject2">
+                        <img src="images/security.jpg" class="card-img-top text-center image-fluid rounded" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
+                            <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm">S</button>
+                            <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm">H</button>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="card text-center d-none d-lg-block d-xl-none" id="finalproject3">
+                        <img src="images/security.jpg" class="card-img-top text-center image-fluid rounded" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="mx-auto">
+                            <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm">S</button>
+                            <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm">H</button>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="card text-center d-none d-xl-block" id="finalproject4">
+                        <img src="images/security.jpg" class="card-img-top text-center image-fluid rounded" id="apple-ipad">
+                        <div class="card-body">
+                            <p class="card-text float-left">FEATURED PROJECT</p>
+                            <span class="float-right">
+                                <button type="button" class="btn btn-circle btn-sm btn1 text-left" id="btn1-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn2" id="btn2-sm">D</button>
+                            <button type="button" class="btn btn-circle btn-sm btn3" id="btn3-sm">S</button>
+                            <button type="button" class="btn btn-circle btn-sm btn4" id="btn4-sm">H</button>
                         </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+<!--        Last cards end-->
         <!--        Project cards end-->
 
 
         <!--        Articles/Twitter start-->
         <div class="col-md-4">
-            <p id="sltd-wrk" class="text-left d-none d-md-block side-card">THE LAST</p>
+            <p id="sltd-wrk" class="text-left d-none d-md-block side-card my-3">THE LAST</p>
             <div class="row">
                 <div class="d-none d-md-block col-md-12">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="images/mobile-phone.jpg" class="card-img" alt="...">
+                                <img src="images/mobile-phone.jpg" class="card-img" alt="Mobile Phone">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body card-body-l">
@@ -307,7 +348,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="images/head.jpg" class="card-img" alt="...">
+                                <img src="images/head.jpg" class="card-img" alt="Head Diagram">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body card-body-l">
@@ -319,7 +360,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="images/ipad.jpg" class="card-img" alt="...">
+                                <img src="images/ipad.jpg" class="card-img" alt="iPad">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body card-body-l">
@@ -328,9 +369,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card ml-n3">
                         <div class="card-header bg-transparent mb-0 pb-0">
-                            <p class="flex-right"><img src="images/twitter.png" class="card-img flex-left" id="twitter">LAST TWEET</p>
+                            <p class="flex-right ml-n3"><img src="images/twitter.png" class="card-img flex-left" id="twitter">LAST TWEET</p>
                         </div>
                         <div class="card-body mt-0 pt-0">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto exercitationem iste quo. Adipisci asperiores, assumenda consequatur dolore doloremque ea eius ex explicabo necessitatibus, porro praesentium quam repellat sequi, temporibus voluptas?</p>

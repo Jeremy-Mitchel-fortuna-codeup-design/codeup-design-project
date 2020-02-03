@@ -75,13 +75,14 @@ h5 {
 }
 
 
-#leftbigbutton {
+.leftbigbutton {
     margin-left: 2%;
 }
 
 #leftbigbuttonxl {
     margin-left: 5%;
 }
+
 
 .btn-circle-lg {
     width: 105px;
@@ -100,11 +101,11 @@ h5 {
     border-radius: 15px;
     font-size: 8px;
     border: transparent;
-    /*text-align: left;*/
     color: black;
 }
 
 .btn-sm {
+
     width: 18px;
     height: 18px;
     padding-right: 10px;
@@ -112,7 +113,6 @@ h5 {
     border-radius: 15px;
     font-size: 8px;
     border: transparent;
-    /*text-align: left;*/
     color: black;
 }
 
@@ -138,7 +138,7 @@ h5 {
 }
 
 #sltd-wrk {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -175,6 +175,27 @@ h5 {
 .nav-link {
     font-family: 'Abel', sans-serif;
 }
+
+#xlbar {
+    padding-left: 20%;
+}
+
+#finalproject1 {
+    margin-top: 20%;
+}
+
+#finalproject2 {
+    margin-top: 31%;
+}
+
+#finalproject3 {
+    margin-top: 14%;
+}
+
+#finalproject4 {
+    margin-top: 11.5%;
+}
+
 #midnavbar {
     justify-content: flex-end;
     align-items: center;
